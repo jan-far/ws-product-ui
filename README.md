@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Live :fire:
+
+[Live Here ->](https://ws-frontend.netlify.app).
+
 ## Local Deployment
 
 In the project directory, you can run:
