@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Local Deployment
 
 In the project directory, you can run:
 
@@ -14,11 +14,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `yarn build`
 
 Builds the app for production to the `build` folder.\
@@ -27,44 +22,34 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Work Sample for Product Developer
+===
 
-### `yarn eject`
+You will work on the following problems that lightly resemble our stack at EQ Works.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Problems
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Complete 1, then pick either 2a or 2b that best represents your interest.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### 1. server-side rate-limiting
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Can be found here:- 
+[`ws-product-nodejs`](https://github.com/jan-far/ws-product-nodejs)
 
-## Learn More
+### 2a - Front-end Track
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Build UI components that leverages the API server from problem 1 to solve problems below.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### A. client-side general chart visualizations
 
-### Code Splitting
+Implement one or more types of charts that can be used to effectively visualize data supplied from the API endpoints. Users should be able to pick different metrics to visualize and compare with others.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### B. client-side data table
 
-### Analyzing the Bundle Size
+Implement a functional data table that can be used to browse through data supplied from the API endpoints. The data table should allow users to fuzzy search on meaningful values (such as POI names), and matching rows should be highlighted.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### C. client-side geo visualizations
 
-### Making a Progressive Web App
+Implement a functional map-based data visualization based on different POI-bound metrics. Users should be able to select different metrics and be able to distinguish each metrics' intensity of different POIs. The map should also allow a certain degree of flexibility for users to zoom in and out, and allow users to see a "clustered" indicator when more than one POIs are too close to each other at the given zoom level.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You will likely need to implement data join between the POIs and other datasets.
