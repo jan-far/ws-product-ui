@@ -15,7 +15,7 @@ const MapSection = ({ position }) => {
     // Important! Always set the container height explicitly
     <div style={{ background: 'aliceblue', height: '100vh', width: '100%' }}>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: 'AIzaSyDYy8S1OCE_L66qM3oQp_NDBZUSsmkFBXM' }}
+        bootstrapURLKeys={{ key: REACT_APP_API_KEY}}
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
       >
